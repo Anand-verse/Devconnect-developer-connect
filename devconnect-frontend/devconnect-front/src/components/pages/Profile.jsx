@@ -13,7 +13,7 @@ const Profile = () => {
         return;
     }
 
-     axios.get('http://localhost:5000/api/profile' ,{
+     axios.get(' https://devconnect-developer-connect.onrender.com/api/profile' ,{
         headers:{
             Authorization: `Bearer ${token}`
         }

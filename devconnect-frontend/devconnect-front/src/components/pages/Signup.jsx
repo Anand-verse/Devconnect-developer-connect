@@ -23,7 +23,7 @@ const Signup = () => {
     }
 
     try {
-       const res = await axios.post('http://localhost:5000/api/signup',{
+       const res = await axios.post(' https://devconnect-developer-connect.onrender.com/api/signup',{
             name: username,
             email,
             password,
